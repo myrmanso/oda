@@ -1,0 +1,33 @@
+//CORES
+
+$roxo: #8954BA;
+$amarelo: #FFCA3A;
+$cinza-claro: #686868;
+$lilas: #5D38DB;
+$ciza-escuro: #4f4f4f;
+$cinza: #8D8D8D;
+
+$cor-primaria: $roxo;
+$cor-secundaria: $amarelo;
+$cor-terciaria: $ciza-escuro;
+$detalhes: $cinza;
+
+//TAMANHOS
+$font-size-padrao: 10px;
+
+$font-size-h1: 3rem; //h1
+$font-size-h2: 2.4rem; //h2
+$font-size-h3: 1.6rem;//h3
+$font-size-destaque: 2.5rem; //texto explicativo
+$font-size-texto: 1.5rem; //botao, link, input
+$font-size-label: 1.2rem; //label
+$font-size-footer: 1rem; //footer
+
+//FONTES
+$font-padrao: 'Roboto', sans-serif;
+
+//IMAGENS
+
+$bg-inicio: url('../../img/bg.jpg');
+$bg-tempo: url('../img/time-bg.jpg');
+$bg-tarefas: url('../img/tarefas-bg.jpg');

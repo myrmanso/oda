@@ -1,0 +1,69 @@
+// @extend %nome-do-elemento;
+
+%tituloH1{
+    @include titulo($font-size-h1, $cor-secundaria, 900);
+}
+
+%tituloH1-border{
+    @include titulo($font-size-h1, $cor-primaria, 900);
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px $cor-secundaria;
+}
+
+%tituloH2{
+    @include titulo($font-size-h2, $cor-primaria, 700);    
+}
+
+%subtitulo{
+    @include titulo($font-size-h3, $cor-primaria, 400);
+}
+
+%botao{
+    letter-spacing: 0.2em;
+    @include titulo($font-size-texto, $cor-primaria, 400);
+}
+
+%texto{
+    @include titulo($font-size-texto, $cor-primaria, 400);
+}
+
+%link{
+    font-size: $font-size-texto;
+    color: $cor-primaria;
+    letter-spacing: 0.2em;
+}
+
+%label{
+    @include titulo($font-size-label, $detalhes, 300);
+}
+
+
+%containerMetade{
+    height: 100vh;
+}
+
+%inputBorder{
+    width: 100%;
+    border: 1px solid #8954BA;
+    border-radius: 1rem;
+}
+
+%imagem--metade{
+    width: 650px;
+}
+
+%imagem--150{
+    width: 15rem;
+}
+
+%bg-inicio{
+    @include imagem('../../img/bg.jpg')
+}
+
+%bg-tempo{
+    @include imagem($bg-tempo)
+}
+
+%bg-tarefas{
+    @include imagem($bg-tarefas)
+}
