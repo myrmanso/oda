@@ -1,6 +1,6 @@
-import Reaact, {Fragment} from 'react'
+import React, {Fragment} from 'react'
 
-const Texto = () => {
+const Texto = (props) => {
     return(
         <Fragment>
             <h2 className="tituloH2">{props.titulo}</h2>

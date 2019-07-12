@@ -1,7 +1,7 @@
 import React, {Fragment, Component} from 'react'
 import Link from 'react-dom'
 
-class Btn from Component{
+class Btn extends Component{
     return(){
         render(
             <Fragment>
@@ -11,3 +11,5 @@ class Btn from Component{
         )
     }
 }
+
+export default Btn

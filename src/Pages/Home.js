@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import '../assets/style/style.scss'
 
 // containerFlex = 
@@ -23,8 +23,7 @@ const  Home = () => {
                     Uma ferramente que está aqui para você quando não esta se sentindo capaz de fazer nem 01 lista
                     </h3>
                     <div>
-                        <p className="link amarelo">começar</p>
-                        {/* <Link to="/tempo"><img href="" />></Link> */}
+                        <Link className="link amarelo" to="/tempo"><img href="" />começar</Link>
                     </div>
                 </div>
             </div>
